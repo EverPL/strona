@@ -1,0 +1,249 @@
+body {
+    background-image: url('images/background.svg');
+    font-family: 'Poppins';
+  }
+#logo{
+    margin-top: 47px;
+    text-align: center;
+
+}
+#menu{
+    display: none;
+}
+#header{
+    margin-top: 48px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-left: 65px;
+}
+#opis_header{
+    margin-top: 13px;
+    font-weight: 200;
+    font-size: 15px;
+    margin-bottom: 70px;
+    margin-left: 65px;
+}
+#aplikacjaH2{
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 71px;
+    text-align: center;
+}
+#line1{
+    margin-left: 91px;
+    margin-bottom: 37px;
+}
+#telefon{
+    margin-bottom: 46px;
+    text-align: center;
+}
+#opis_telefon{
+    font-weight: 100;
+    font-size: 15px;
+    margin-left: 65px;
+    margin-right: 40px;
+}
+#kompatybilnoscH2{
+    margin-top: 30px;
+    margin-bottom: 26px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+#opis_kompatybilnosc{
+    font-weight: 100;
+    font-size: 15px;
+    margin-bottom: 62px;
+    margin-left: 65px;
+    margin-right: 40px;
+}
+#Kontakt{
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 65px;
+}
+#imie{
+    font-weight: 200;
+    font-size: 14px;
+    margin-bottom: 13px;
+    margin-left: 65px;   
+}
+#nazwisko{
+    font-weight: 200;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-left: 65px;
+}
+#email{
+    font-weight: 200;
+    font-size: 14px;
+    margin-bottom: 13px;
+    margin-left: 65px;
+}
+#tresc textarea {
+    height: 70px;
+    width: 254px;
+}
+#tresc{
+    font-weight: 200;
+    font-size: 14px;
+    margin-bottom: 26px;
+    margin-left: 65px;
+}
+#kontakt_portal{
+    margin-top: 48px;
+    margin-bottom: 30px;
+    font-weight: 100;
+    font-size: 18px;
+    margin-left: 42px;
+}
+#dane{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 37px;
+    margin-bottom: 27px;
+    margin-left: 65px;
+}
+#Google{
+    margin-left: 65px;
+    margin-bottom: 36px;
+}
+#Apple{
+    margin-left: 65px;
+    margin-bottom: 48px;
+}
+#wyslij{
+    text-align: center;
+}
+#ikony{
+    margin-left: 65px;
+}
+#dsw{
+    text-align: center;
+}
+#mapa{
+    margin-top: 27px;
+}
+#stopka{
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+}
+#telefon_logo, #telefon_desktop, #telefony_zdj, #linia_aplikacja, #pobierz_elementy, #STOPKA_CALA, #wyslij_pc, #dsw_pc{
+    display: none;
+}
+#kontakt_portal,#ikony,#dane,#mapa,#stopka,#wyslij, #dsw{
+    display: box;
+}
+
+@media only screen and (min-width: 600px){
+    body{
+        background-image: none;
+    }
+    #imie{
+        margin-top: 270px;
+    }
+    #imie,#nazwisko,#email,#tresc{
+        margin-left: 664px;
+        font-weight: 200;
+        font-size: 24px;
+    }
+    #wyslij_pc{
+        margin-left: 668px;
+    }
+    #telefon_desktop, #telefony_zdj, #linia_aplikacja,#pobierz_elementy, #STOPKA_CALA, #wyslij_pc, #dsw_pc{
+        display: initial;
+    }
+    #ikony,#dane,#mapa,#stopka,#wyslij, #dsw{
+        display: none;
+    }
+    #kontakt_portal{
+        display: none;
+    }
+    #logo{
+        display: flex;
+        margin-left: 261px;
+    }
+    #menu{
+        display: flex;
+        margin-left: 665px;
+        margin-top: 103px;
+    }
+    #header{
+        text-align: left;
+        margin-left: 127px;
+        font-weight: 500;
+        font-size: 40px;
+    }
+    #dsw_pc{
+        margin-left: 277px;
+    }
+    #opis_header{
+        margin-left: 163px;
+        font-weight: 200;
+        font-size: 24px;
+    }
+    #telefon_logo{
+        margin-left: 1218px;
+        margin-top: 80px;
+        display: initial;
+    }
+    #line1{
+        display: none;
+    }
+    #linia_aplikacja{
+        margin-left: 489px;
+    }
+    #aplikacjaH2{
+        margin-top: 408px;
+        font-weight: 400;
+        font-size: 36px;
+    }
+    #telefon{
+        display: none;
+    }
+    #kompatybilnoscH2{
+        text-align: left;
+        margin-left: 286px;
+        font-weight: 500;
+        font-size: 36px;
+    }
+    #opis_kompatybilnosc{   
+        margin-left: 155px;
+        font-weight: 200;
+        font-size: 24px;
+        display: flex;
+        float: left;
+    }
+    #telefony_zdj{
+        display: flex;
+        float: right;
+    }
+    #pobierz_elementy{
+        margin-left: 26px;
+    }
+    #Google{
+        display: none;
+    }
+    #Apple{
+        display: none;
+    }
+    #telefon_desktop{
+        display: flex;
+        margin-left: 188px;
+          
+    }
+    #tekst_telefon{
+        display: flex;
+        margin-top: 100px;
+    }
+    #opis_telefon{
+        display: none;
+        margin-top: 176px;
+        margin-left: 92px;
+        font-weight: 400;
+        font-size: 24px;
+    }
+}  
